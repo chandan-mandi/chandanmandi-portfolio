@@ -1,0 +1,14 @@
+import React from 'react';
+import { Container } from 'react-bootstrap';
+
+const Footer = () => {
+    return (
+        <div className="footer-section">
+            <Container>
+                <p>Designed and Developed by <a href="https://andibabu.com">Chandan Mandi</a> </p>
+            </Container>
+        </div>
+    );
+};
+
+export default Footer;

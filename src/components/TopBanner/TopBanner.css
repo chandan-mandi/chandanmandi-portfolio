@@ -17,9 +17,37 @@
     color: #00cf5d;
     font-weight: 700;
 }
-.intro-text ul {
+ul {
     display: flex;
     list-style: none;
+    padding-left: 0 !important;
+    
+}
+ul li {
+    margin-right: 20px !important;
+}
+.links ul {
+    font-size: 22px;
+}
+.links ul li a {
+    color: #fff;
+}
+.links ul li a:hover {
+    color: #00cf5d !important;
+    cursor: pointer;
+}
+.project-tools ul {
+    flex-wrap: wrap;
+}
+.project-tools ul li {
+    color: #c6c9d8;
+    background: #1d293a;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
 }
 .intro-text ul li{
     position:relative;

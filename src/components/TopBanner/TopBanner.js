@@ -17,7 +17,7 @@ const TopBanner = () => {
                                 <li>Programmer</li>
                                 <li>Software</li>
                             </ul>
-                            <Button variant="success" href="../../assets/Chandan Mandi - Resume.pdf" download>Get Resume</Button>
+                            <Button variant="success" target="_blank" href="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/Chandan%20Mandi%20-%20Resume.pdf" download>Get Resume</Button>
                             <Button variant="outline-success">About Me</Button>
                         </div>
                     </Col>
