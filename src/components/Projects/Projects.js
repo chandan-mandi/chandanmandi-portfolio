@@ -2,9 +2,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import hotwheels from "../../assets/hot-wheels.png";
-import eventsmaker from "../../assets/eventsmaker.png";
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Projects = () => {
     return (
@@ -16,7 +14,7 @@ const Projects = () => {
                         <div className="project-card">
                             <Card>
                                 <div className="project-img p-2">
-                                    <Card.Img variant="top" src={hotwheels} />
+                                    <Card.Img variant="top" src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/hot-wheels.png" />
                                 </div>
                                 <Card.Body>
                                     <Card.Title>HotWheels - Buy Second-Hand Cars.</Card.Title>
@@ -56,7 +54,7 @@ const Projects = () => {
                         <div className="project-card">
                             <Card>
                                 <div className="project-img p-2">
-                                    <Card.Img variant="top" src="https://i.ibb.co/rMTZxzB/eventsmaker.png" />
+                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/chandan-mandi/chandanmandi-portfolio/main/src/assets/eventsmaker.png" />
                                 </div>
                                 <Card.Body>
                                     <Card.Title>Events-Maker - Event Manage.</Card.Title>
