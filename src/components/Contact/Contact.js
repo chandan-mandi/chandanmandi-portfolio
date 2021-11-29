@@ -12,9 +12,9 @@ const Contact = () => {
         }
     },[state.succeeded])
     return (
-        <div className="contact-section py-5">
-            <Container>
-                <h2>Get In Touch</h2>
+        <div className="contact-section py-5" id="contact">
+            <Container className="py-5">
+                <h2 className="text-center pb-5">Get In Touch</h2>
                 <Row>
                     <Col md={6} sm={12}>
                         <Form onSubmit={handleSubmit}>
@@ -29,6 +29,11 @@ const Contact = () => {
                             </Form.Group>
                             <Button variant="outline-success" type="submit">Send Message</Button>
                         </Form>
+                    </Col>
+                    <Col md={6} sm={12}>
+                        <div className="intro-img">
+                            <img src="" alt="" />
+                        </div>
                     </Col>
                 </Row>
                 <Toaster />

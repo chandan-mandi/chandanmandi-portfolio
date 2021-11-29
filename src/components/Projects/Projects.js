@@ -6,8 +6,9 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Projects = () => {
     return (
-        <div className="my-projects py-5">
-            <Container>
+        <div className="my-projects py-5" id="portfolio">
+            <Container className="py-5">
+                <h2 className="text-center pb-4">PORTFOLIO</h2>
                 <Row>
                     <Col lg={4} md={4} sm={12} xs={12}>
                         <div className="project-card">

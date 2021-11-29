@@ -35,11 +35,11 @@ const MenuBar = () => {
                 <Navbar.Toggle onClick={() => setCollapsed(!isCollapsed ? 'show' : null)} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/#about">About</Nav.Link>
-                        <Nav.Link href="/services">Skill</Nav.Link>
-                        <Nav.Link href="/contact">Portfolio</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
-                        <Nav.Link href="/contact">Resume</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        {/* <Nav.Link href="/services">Skill</Nav.Link> */}
+                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link className="resume-btn" target="_blank" href="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/Chandan%20Mandi%20-%20Resume.pdf" download>Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

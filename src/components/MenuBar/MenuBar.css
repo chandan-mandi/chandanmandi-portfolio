@@ -23,9 +23,10 @@
 .navbar a.nav-link {
     color: #fff !important;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
     font-size: 18px;
+    padding: 5px 15px;
 }
 .bg-compaque {
     opacity: 1;
