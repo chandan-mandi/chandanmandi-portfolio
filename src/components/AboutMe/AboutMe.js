@@ -16,7 +16,7 @@ const AboutMe = () => {
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="about-img">
-                            <img src="https://andibabu.com/wp-content/uploads/2021/06/Title.jpg" alt="" />
+                            <img src="https://i.ibb.co/XYL8ddz/chandan-image.jpg" alt="" />
                         </div>
                     </Col>
                 </Row>

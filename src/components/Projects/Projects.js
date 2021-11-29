@@ -3,6 +3,8 @@ import { faExternalLinkAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import hotwheels from "../../assets/hot-wheels.png";
+import eventsmaker from "../../assets/eventsmaker.png";
 
 const Projects = () => {
     return (
@@ -14,22 +16,23 @@ const Projects = () => {
                         <div className="project-card">
                             <Card>
                                 <div className="project-img p-2">
-                                    <Card.Img variant="top" src="https://sohelislamimran.netlify.app/static/media/Gerez.bc6d268c.png" />
+                                    <Card.Img variant="top" src={hotwheels} />
                                 </div>
                                 <Card.Body>
-                                    <Card.Title>Gerez - Car Repair Services</Card.Title>
+                                    <Card.Title>HotWheels - Buy Second-Hand Cars.</Card.Title>
                                     <Card.Text>
-                                        A full-stack single-page car repair web app where people can take and book services. Login system with firebase and private routes. Dashboard for users and admins where admins can do CRUD operations and users can give reviews and monitor their booking list.
+                                        HotWhells is the one-stop solution if you want to buy used cars online in India
+                                        as you can get competitive prices for models of your choice.
                                     </Card.Text>
                                     <div className="links">
                                         <ul>
                                             <li >
-                                                <a href="https://devsonket.com/" target="_blank" rel="noreferrer">
+                                                <a href="https://hot-wheels-d4134.web.app/" target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://devsonket.com/" target="_blank" rel="noreferrer">
+                                                <a href="https://github.com/chandan-mandi/hot-wheels-client" target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                                                 </a>
                                             </li>
@@ -49,7 +52,45 @@ const Projects = () => {
                             </Card>
                         </div>
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={12}></Col>
+                    <Col lg={4} md={4} sm={12} xs={12}>
+                        <div className="project-card">
+                            <Card>
+                                <div className="project-img p-2">
+                                    <Card.Img variant="top" src="https://i.ibb.co/rMTZxzB/eventsmaker.png" />
+                                </div>
+                                <Card.Body>
+                                    <Card.Title>Events-Maker - Event Manage.</Card.Title>
+                                    <Card.Text>
+                                    determined to make your special day a memorable one. You can book your Event online by choosing it according to your budget.
+                                    </Card.Text>
+                                    <div className="links">
+                                        <ul>
+                                            <li >
+                                                <a href="https://events-maker.web.app/" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/chandan-mandi/events-maker" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="project-tools">
+                                        <ul>
+                                            <li>React.js</li>
+                                            <li>React Bootstrap</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                            <li>Firebase Authentication</li>
+                                        </ul>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </div>
