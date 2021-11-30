@@ -90,3 +90,9 @@ ul li {
 .intro-img img {
     width: 100%;
 }
+/* mdeia query  */
+@media only screen and (max-width: 768px) {
+    .intro-img {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
@@ -14,8 +14,11 @@ const Contact = () => {
     return (
         <div className="contact-section py-5" id="contact">
             <Container className="py-5">
-                <h2 className="text-center pb-5">Get In Touch</h2>
-                <Row>
+                <h2 className="text-center">Get In Touch</h2>
+                <div className="divider">
+                    <span></span>
+                </div>
+                <Row className="py-3">
                     <Col md={6} sm={12}>
                         <Form onSubmit={handleSubmit}>
                             <Form.Group className="mb-3">

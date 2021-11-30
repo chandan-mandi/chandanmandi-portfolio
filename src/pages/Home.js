@@ -4,6 +4,7 @@ import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import MenuBar from '../components/MenuBar/MenuBar';
 import Projects from '../components/Projects/Projects';
+import Skills from '../components/Skills/Skills';
 import TopBanner from '../components/TopBanner/TopBanner';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <MenuBar/>
             <TopBanner/>
             <AboutMe/>
+            <Skills/>
             <Projects/>
             <Contact/>
             <Footer/>

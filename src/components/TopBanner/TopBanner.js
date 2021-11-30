@@ -23,7 +23,7 @@ const TopBanner = () => {
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={12}>
                         <div className="intro-img">
-                            <img src="https://i.ibb.co/L0KDRB1/intro-image.png" alt="intro-imag" />
+                            <img src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/intro-image.png" alt="intro-imag" />
                         </div>
                     </Col>
                 </Row>

@@ -44,6 +44,18 @@
 .home-page {
   color: #fff;
 }
+/* about section  */
+.about-me .col-lg-6.col-md-6.col-sm-12 {
+  margin: 10px 0 !important;
+}
+.divider {
+  text-align: center;
+  padding-top: 5px;
+  width: 75px;
+  border-top: 2px solid #00cf5d;
+  border-bottom: 2px solid #00cf5d;
+  margin: auto auto 10px;
+}
 .about-img {
   display: flex;
   align-items: center;
@@ -70,6 +82,7 @@
   background-color: #1D293A;
   padding: 5px;
   border-radius: 5px;
+  margin: 10px 0;
 }
 .project-card .project-img {
   width: 100%;
@@ -108,7 +121,20 @@
 .footer-section p {
   margin-bottom: 0;
 }
+.footer-section a {
+  color: #00cf5d;
+}
 .resume-btn {
   border: 2px solid #00cf5d;
   border-radius: 4px;
+}
+/* skill section  */
+.skill-box h3 {
+  font-size: 18px;
+}
+.skill-box {
+  margin-bottom: 20px;
+}
+.skill-box .progress {
+  height: 0.7rem !important;
 }

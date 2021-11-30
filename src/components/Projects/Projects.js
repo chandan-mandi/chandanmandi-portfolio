@@ -8,8 +8,11 @@ const Projects = () => {
     return (
         <div className="my-projects py-5" id="portfolio">
             <Container className="py-5">
-                <h2 className="text-center pb-4">PORTFOLIO</h2>
-                <Row>
+                <h2 className="text-center">PORTFOLIO</h2>
+                <div className="divider">
+                    <span></span>
+                </div>
+                <Row className="py-4">
                     <Col lg={4} md={4} sm={12} xs={12}>
                         <div className="project-card">
                             <Card>

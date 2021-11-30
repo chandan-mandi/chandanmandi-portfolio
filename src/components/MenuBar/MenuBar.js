@@ -29,7 +29,7 @@ const MenuBar = () => {
                 >
                     <img width="40"
                     height="40"
-                    className="d-inline-block align-top mr-2" src="https://i.ibb.co/s5qRPGQ/chandan-logo-removebg-preview.png" alt="" />
+                    className="d-inline-block align-top mr-2" src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/portfolio%20logo.png" alt="" />
                     
                     </Navbar.Brand>
                 <Navbar.Toggle onClick={() => setCollapsed(!isCollapsed ? 'show' : null)} aria-controls="responsive-navbar-nav" />
