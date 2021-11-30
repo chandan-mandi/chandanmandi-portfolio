@@ -82,6 +82,9 @@
 .card-title {
   height: 42px;
 }
+p.card-text {
+  min-height: 100px;
+}
 .project-card {
   background-color: #1D293A;
   padding: 5px;

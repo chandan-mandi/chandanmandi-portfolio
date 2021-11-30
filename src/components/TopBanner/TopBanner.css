@@ -90,6 +90,16 @@ ul li {
 .intro-img img {
     width: 100%;
 }
+.follow-me-icon a {
+    color: #fff;
+    margin-right: 10px;
+}
+.follow-me-icon a:hover {
+    color: #00cf5d;
+}
+.follow-me-icon{
+    font-size: 22px;
+}
 /* mdeia query  */
 @media only screen and (max-width: 768px) {
     .intro-img {

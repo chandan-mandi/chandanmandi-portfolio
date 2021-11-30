@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer-section">
             <Container>
-                <p>Designed and Developed by <a href="https://andibabu.com">Chandan Mandi</a> </p>
+                <p>Designed and Developed by <a href="https://github.com/chandan-mandi">Chandan Mandi</a> </p>
             </Container>
         </div>
     );

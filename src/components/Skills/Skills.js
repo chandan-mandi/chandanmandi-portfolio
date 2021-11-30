@@ -3,7 +3,7 @@ import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
 
 const Skills = () => {
     return (
-        <div className="skills-section py-5">
+        <div className="skills-section py-5" id="skills">
             <Container className="py-5">
                 <h2 className="text-center">MY SKILLS</h2>
                 <div className="divider">

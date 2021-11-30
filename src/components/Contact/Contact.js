@@ -8,15 +8,17 @@ const Contact = () => {
     useEffect(() => {
         if (state.succeeded) {
             return toast.success('Thank You for Your valuable Feedback!');
-            
+
         }
-    },[state.succeeded])
+    }, [state.succeeded])
     return (
         <div className="contact-section py-5" id="contact">
-            <Container className="py-5">
-                <h2 className="text-center">Get In Touch</h2>
-                <div className="divider">
-                    <span></span>
+            <Container className="py-3">
+                <div className="pb-3">
+                    <h2 className="text-center">Get In Touch</h2>
+                    <div className="divider">
+                        <span></span>
+                    </div>
                 </div>
                 <Row className="py-3">
                     <Col md={6} sm={12}>

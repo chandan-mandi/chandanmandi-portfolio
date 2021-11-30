@@ -1,8 +1,8 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faExternalLinkAlt, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Projects = () => {
     return (
@@ -96,7 +96,7 @@ const Projects = () => {
                         <div className="project-card">
                             <Card>
                                 <div className="project-img p-2">
-                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/chandan-mandi/chandanmandi-portfolio/main/src/assets/eventsmaker.png" />
+                                    <Card.Img variant="top" src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/holidify.png" />
                                 </div>
                                 <Card.Body>
                                     <Card.Title>Holidify - Hotel booking engine.</Card.Title>
@@ -132,6 +132,9 @@ const Projects = () => {
                             </Card>
                         </div>
                     </Col>
+                    <div className="text-center mt-3">
+                        <Button variant="success">View More</Button>
+                    </div>
                 </Row>
             </Container>
         </div>

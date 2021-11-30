@@ -25,7 +25,7 @@ const MenuBar = () => {
         className={(isSticky || isCollapsed) ? "shadow-sm bg-compaque py-2 navbar-stick" : "py-4"}>
             <Container>
                 <Navbar.Brand 
-                href="/home"
+                href="/"
                 >
                     <img width="40"
                     height="40"
@@ -36,7 +36,7 @@ const MenuBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#about">About</Nav.Link>
-                        {/* <Nav.Link href="/services">Skill</Nav.Link> */}
+                        <Nav.Link href="#skills">Skill</Nav.Link>
                         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         <Nav.Link className="resume-btn" target="_blank" href="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/Chandan%20Mandi%20-%20Resume.pdf" download>Resume</Nav.Link>
