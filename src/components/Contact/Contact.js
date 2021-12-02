@@ -37,7 +37,7 @@ const Contact = () => {
                     </Col>
                     <Col md={6} sm={12}>
                         <div className="intro-img">
-                            <img src="" alt="" />
+                            <img src="https://raw.githubusercontent.com/chandan-mandi/chandanmandi-portfolio/main/src/assets/email-contact.png" alt="" />
                         </div>
                     </Col>
                 </Row>

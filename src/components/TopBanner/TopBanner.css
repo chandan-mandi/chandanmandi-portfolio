@@ -102,7 +102,10 @@ ul li {
 }
 /* mdeia query  */
 @media only screen and (max-width: 768px) {
-    .intro-img {
-        display: none;
+    .intro-area .row {
+        flex-direction: column-reverse;
     }
+    .intro-area {
+        height: auto !important;
+      }
 }
