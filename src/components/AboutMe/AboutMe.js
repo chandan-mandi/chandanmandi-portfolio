@@ -19,7 +19,7 @@ const AboutMe = () => {
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="about-img">
-                            <img src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/chandan-image.jpg" alt="" />
+                            <img src="https://raw.githubusercontent.com/chandan-mandi/chandanmandi-portfolio/main/src/assets/chandan-portfolio.jpg" alt="" />
                         </div>
                     </Col>
                 </Row>
