@@ -107,12 +107,12 @@ const Projects = () => {
                                     <div className="links">
                                         <ul>
                                             <li >
-                                                <a href="https://events-maker.web.app/" target="_blank" rel="noreferrer">
+                                                <a href="https://holidify-11f01.web.app/" target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/chandan-mandi/events-maker" target="_blank" rel="noreferrer">
+                                                <a href="https://github.com/chandan-mandi/holidify-client-side" target="_blank" rel="noreferrer">
                                                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                                                 </a>
                                             </li>
