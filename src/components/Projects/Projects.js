@@ -17,6 +17,90 @@ const Projects = () => {
                         <div className="project-card">
                             <Card>
                                 <div className="project-img p-2">
+                                    <Card.Img variant="top" src="https://i.ibb.co/Xb0Q0rd/screencapture-water-park-website-web-app.png" />
+                                </div>
+                                <Card.Body>
+                                    <Card.Title>WaterKingdom - Ticket booking.</Card.Title>
+                                    <Card.Text>
+                                    Waterkingdom offered for the user the convenience of booking Ticket online with a few clicks.
+                                    </Card.Text>
+                                    <div className="links">
+                                        <ul>
+                                            <li >
+                                                <a href="https://water-park-website.web.app/" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/Zannatul-Fahmida/Water-park-website" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="project-tools">
+                                        <ul>
+                                            <li>React.js</li>
+                                            <li>Redux</li>
+                                            <li>Razorpay Payment System</li>
+                                            <li>PDF generator for Invoice</li>
+                                            <li>JWT</li>
+                                            <li>React Bootstrap</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                            <li>Firebase Authentication</li>
+                                        </ul>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Col>
+                    <Col lg={4} md={4} sm={12} xs={12}>
+                        <div className="project-card">
+                            <Card>
+                                <div className="project-img p-2">
+                                    <Card.Img variant="top" src="https://i.ibb.co/1z3StND/screencapture-tours-story-netlify-app.png" />
+                                </div>
+                                <Card.Body>
+                                    <Card.Title>Tours-Story - Travel Blog.</Card.Title>
+                                    <Card.Text>
+                                    Travel application where the travelers can share their experience. User will be able to see their blog status by going to the dashboard.
+                                    </Card.Text>
+                                    <div className="links">
+                                        <ul>
+                                            <li >
+                                                <a href="https://tours-story.netlify.app/" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/chandan-mandi/travel-blog" target="_blank" rel="noreferrer">
+                                                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="project-tools">
+                                        <ul>
+                                            <li>React.js</li>
+                                            <li>Tailwind CSS</li>
+                                            <li>JWT</li>
+                                            <li>React Bootstrap</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>MongoDB</li>
+                                            <li>Firebase Authentication</li>
+                                        </ul>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Col>
+                    <Col lg={4} md={4} sm={12} xs={12}>
+                        <div className="project-card">
+                            <Card>
+                                <div className="project-img p-2">
                                     <Card.Img variant="top" src="https://github.com/chandan-mandi/chandanmandi-portfolio/raw/main/src/assets/hot-wheels.png" />
                                 </div>
                                 <Card.Body>
